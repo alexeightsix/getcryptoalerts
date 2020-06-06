@@ -1,0 +1,12 @@
+docker-compose up -d &&
+export FLASK_DEBUG=1 &&
+export FLASK_ENV=development &&
+export FLASK_APP=gca &&
+sudo apt-get install python-virtualenv
+python3 -m venv .env &&
+. .env/bin/activate &&
+pip install Flask &&
+python setup.py install &&
+pip install -e . &&
+google-chrome 127.0.0.1:5000 &&
+flask run

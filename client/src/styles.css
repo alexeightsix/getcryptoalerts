@@ -1,0 +1,84 @@
+.App {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+svg.MuiSvgIcon-root {
+    margin-left: 10px;
+    font-size: 32px;
+}
+
+.navigation {
+    text-align: right;
+}
+
+.MuiGrid-root.home.MuiGrid-container {
+    text-align: center;
+}
+
+.MuiGrid-root.home.MuiGrid-container {
+    margin-top: 12%;
+}
+
+.header>h2 {
+    margin-bottom: 12%;
+}
+
+.header button {
+    width: 250px;
+    height: 50px
+}
+
+.announcement {
+    color: #c51162;
+}
+
+.login, .logout, .account {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.login:hover, .logout:hover, .account:hover {
+    color: #f50057;
+    opacity: 0.5;
+}
+
+button.color-black {
+    color: #000;
+}
+
+.error {
+    margin-bottom: 10px;
+}
+
+.create, .forgot {
+    color: #f50057;
+    text-decoration: none;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+button.edit-alert {
+    color: #f50057;
+}
+
+.verified-message {
+    background-color: rgb(253, 236, 234);
+}
+
+button.resend-btn {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.error {
+    margin-top: 10px;
+    height: 0px;
+    margin-bottom: 47px;
+}

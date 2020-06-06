@@ -1,0 +1,11 @@
+.coverage
+.coverage
+__pycache__/
+todo.md
+.database
+.env
+.vscode
+dist/
+gca.egg-info/
+.idea
+config.json
